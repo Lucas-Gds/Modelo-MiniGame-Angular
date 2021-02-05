@@ -1,0 +1,38 @@
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-6">
+            </div>
+            <div class="col-sm-6 d-flex flex-row-reverse bd-highlight">
+            </div>
+        </div>
+        <div *ngFor="let q of questao" >
+        <div class="row"  >
+            <div class="col">
+               <h4>{{static}}</h4>
+               <p style="font-size: 25px;">{{q.perguntas}}</p>
+               <h4>{{alternativa}}</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col apply">
+            <input type="radio" value="A" name="option" id="one" (input)="atualizaResposta($event)">
+            <label for="one" class="btn btn-secondary">A</label> 
+            <input type="radio" value="B" name="option" id="two" (input)="atualizaResposta($event)">
+            <label for="two" class="btn btn-secondary" >B</label> 
+            <input type="radio" value="C" name="option" id="three" (input)="atualizaResposta($event)">
+            <label for="three" class="btn btn-secondary">C</label> 
+            <input type="radio" value="D" name="option" id="four" (input)="atualizaResposta($event)">
+            <label for="four" class="btn btn-secondary">D</label> 
+        </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex flex-row-reverse bd-highlight">
+                <button type="button" class="btn btn-primary" (click)="validarResposta()">Validar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+

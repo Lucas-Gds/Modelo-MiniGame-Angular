@@ -1,0 +1,27 @@
+{
+    
+        "Questao": [
+        {
+        "id" : 1,
+        "perguntas" : "qual é a Primeira regra?: A) A primeira, B) A segunda, C) A terceira, D) A quarta", 
+        "correta": "A"
+        },
+            {
+        "id" : 2,
+        "perguntas" : "qual é a Segunda regra?: A) A primeira, B) A segunda, C) A terceira, D) A quarta", 
+        "correta": "B"
+        },
+        {
+        "id" : 3,
+        "perguntas" : "qual é a Terceira regra?: A) A primeira, B) A segunda, C) A terceira, D) A quarta", 
+        "correta": "C"
+        },
+        {
+        "id" : 4,
+        "perguntas" : "qual é a Quarta regra?: A) A primeira, B) A segunda, C) A terceira, D) A quarta", 
+        "correta": "D"
+        }
+    ]
+
+}
+        
